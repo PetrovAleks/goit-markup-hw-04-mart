@@ -16,6 +16,8 @@ h1 {
 
 }
 
+
+
 /* 
 Стили списка
  */
@@ -113,42 +115,70 @@ nav {
     color: #515151;
     margin-bottom: 120px;
     margin-top: 0px;
-
-
-
-
-}
-
-.products {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 /* 
-Список Товаров 
+Контейнер для дива в  секции товара
  */
 
-.products-list {
+.products {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+
+/* 
+Список Товаров 
+ */
+.products-liste {
     display: flex;
     flex-wrap: wrap;
 
+}
 
 
+.products-item {
+    margin-right: 30px;
+    margin-bottom: 30px;
 
+}
+
+
+.products-item:nth-child(4n) {
+    margin-right: 0px;
+}
+
+.products-item:nth-child(n+5) {
+    margin-bottom: 0px;
 }
 
 .link-products-item {
     display: flex;
     flex-direction: column;
-    margin-right: 30px;
-    margin-bottom: 30px;
-
-
-
 
 }
+
+
+/*
+ HOVER-FOCUS PRODUCTS
+  */
+
+.products-item:hover .wrapper-name-products,
+.products-item:focus .wrapper-name-products {
+    background-color: #1abc9c;
+
+}
+
+.products-item:hover .cost,
+.products-item:focus .cost {
+    background-color: #7fd9c7;
+
+}
+
 
 /* 
 Имя товара и цена
@@ -191,5 +221,105 @@ nav {
     color: #fff;
     background-color: #8c8c8c;
 
+
+}
+
+/*
+ Секция с новостями
+  */
+.flex-position {
+    display: flex;
+
+
+
+
+}
+
+.block-news {
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+
+
+.colum-flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+/* Оформление текста */
+.img-blogs {
+    margin-bottom: 20px;
+}
+
+.colum-flex h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    line-height: 23px;
+
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+    color: #555252;
+}
+
+.preview {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+
+    letter-spacing: -0.02em;
+    line-height: 23px;
+
+    color: #555252;
+
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+}
+
+.button {
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 3px;
+    background-color: #4ec6ab;
+    color: #fff;
+
+
+    width: 160px;
+    height: 50px;
+
+    margin: 0px;
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: center;
+
+    letter-spacing: -0.02em;
+    line-height: 26px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #17a186;
+
+}
+
+.block-news:hover .button,
+.block-news:focus .button {
+    background-color: #17a186;
 
 }
