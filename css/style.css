@@ -1,0 +1,195 @@
+body {
+    background-color: #fff;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteiner {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+/* 
+Стили списка
+ */
+
+.list-style {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+/* 
+Стили ссылок 
+*/
+
+.link-style {
+    text-decoration: none;
+}
+
+/* 
+Навигация и лого
+ */
+
+.logo {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+
+}
+
+.logo-link {
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: -0.02em;
+    color: #555252;
+}
+
+.logo-m {
+    color: #1abc9c;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 30px;
+
+
+
+}
+
+.navigation-list {
+    display: flex;
+    margin-left: auto;
+
+}
+
+.navigation-item {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    margin-right: 34px;
+
+}
+
+.navigation-item:nth-last-child(1) {
+    margin-right: 0px;
+}
+
+.nav-link {
+    color: #0f0101;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #1abc9c;
+}
+
+/* 
+Секция FEATURED PRODUCTS
+*/
+
+.title {
+
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    letter-spacing: -0.02em;
+    font-weight: 900;
+    text-transform: uppercase;
+
+
+    color: #515151;
+    margin-bottom: 120px;
+    margin-top: 0px;
+
+
+
+
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* 
+Список Товаров 
+ */
+
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+
+}
+
+.link-products-item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+
+
+
+}
+
+/* 
+Имя товара и цена
+ */
+
+.wrapper-name-products {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: #323232;
+
+}
+
+
+.name-products {
+    padding: 14px 0px 14px 14px;
+
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: -0.02em;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    color: #fff;
+
+
+}
+
+
+.cost {
+    padding: 14px;
+
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: -0.02em;
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    background-color: #8c8c8c;
+
+
+}
