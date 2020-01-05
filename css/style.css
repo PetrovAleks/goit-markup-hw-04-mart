@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #fff;
 }
@@ -8,7 +16,7 @@ h1 {
 }
 
 .container {
-  width: 1110px;
+  width: 1170px;
   padding-left: 30px;
   padding-right: 30px;
 
@@ -121,6 +129,7 @@ h1 {
 .products {
   margin-bottom: 100px;
 }
+
 .products-liste {
   display: flex;
   flex-wrap: wrap;
