@@ -47,8 +47,8 @@ h1 {
 Навигация и лого
  */
 .nav {
-  margin-bottom: 100px;
-  margin-top: 30px;
+  padding-bottom: 100px;
+  padding-top: 30px;
 }
 
 .navigation {
@@ -210,7 +210,7 @@ h1 {
  Секция с новостями
   */
 .news {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 .flex-position {
